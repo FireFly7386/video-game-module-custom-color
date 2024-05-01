@@ -4,6 +4,7 @@
 void cli_gpio(Cli* cli, std::string& args);
 void cli_device_info(Cli* cli, std::string& args);
 void cli_imu_test(Cli* cli, std::string& args);
+void cli_color(Cli* cli, std::string& args);
 
 void cli_help(Cli* cli, std::string& args) {
     size_t max_len = 0;
@@ -64,6 +65,11 @@ const CliItem cli_items[] = {
         .name = "imu_test",
         .desc = "test the IMU",
         .callback = cli_imu_test,
+    },
+    {
+        .name = "color",
+        .desc = "set the output color of the vgm",
+        .callback = cli_color,
     },
 };
 

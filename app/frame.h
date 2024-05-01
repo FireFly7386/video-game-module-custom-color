@@ -11,6 +11,8 @@ uint32_t frame_get_clock();
 
 uint32_t frame_get_voltage();
 
+extern uint16_t color_bg;
+
 typedef enum {
     OrientationHorizontal = 0,
     OrientationHorizontalFlip = 1,
