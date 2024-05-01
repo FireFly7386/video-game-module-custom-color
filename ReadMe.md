@@ -2,10 +2,10 @@
 A fork of the flipperzero vgm firmware, which allows you to change the color of the video output.
 
 ## Flashing
-Download the latest release *.uf2 (Coming up)
-Hold the boot button on you vgm while plugging it in
-Drop the .uf2 in the RPI-RP2 Folder
-You can change the color either by using the vgm cli with the command: color <orange|red|green|blue|magenta|yellow> or with the Flipper VGM Color App from the Flipper App Store (App isnt available yet)
+Download the latest release *.uf2 (Coming up).
+Hold the boot button on you vgm while plugging it in.
+Drop the .uf2 in the RPI-RP2 Folder.
+You can change the color either by using the vgm cli with the command: color <orange|red|green|blue|magenta|yellow> or with the Flipper VGM Color App from the Flipper App Store (App isnt available yet).
 
 ## Building
 
